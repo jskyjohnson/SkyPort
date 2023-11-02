@@ -83,8 +83,6 @@ While SkyPort is primarily a personal endeavor, constructive feedback, issue rep
 
 ## **Roadmap**
 
-## **Roadmap**
-
 The roadmap serves as a guide to the key milestones and features planned for SkyPort. It's organized into phases to prioritize and categorize the work, ensuring the systematic development of the project.
 
 ### **Phase 1: Foundation & Basic Functionality**
