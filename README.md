@@ -135,8 +135,23 @@ The roadmap serves as a guide to the key milestones and features planned for Sky
 
 ### **Phase 4: Refinement & Scale**
 
-... *(Same points as earlier, unless there are other changes you want to make)* ...
-
+- **Advanced Features & Enhancements**:
+  - Advanced search functionalities.
+  - Personalized user experiences.
+  - Subscription and newsletter system.
+- **Performance Optimization**:
+  - Backend optimizations (e.g., database query performance).
+  - Frontend lazy loading, chunking, and other performance practices.
+- **Community & Collaboration Features**:
+  - Collaborative coding art projects.
+  - Guest blogging or feature collaborations.
+- **Extended Deployment Options**:
+  - CDN management.
+  - Scalability considerations.
+- **Codebase Refinement**:
+  - Regular code reviews and refactorings.
+  - Enhanced inline code documentation.
+  - Contributor guidelines and code of conduct.
 
 ## **Commitment**
 
