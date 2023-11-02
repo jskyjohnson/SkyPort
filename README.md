@@ -83,7 +83,60 @@ While SkyPort is primarily a personal endeavor, constructive feedback, issue rep
 
 ## **Roadmap**
 
-A list of planned features, improvements, and milestones will be periodically updated here.
+## **Roadmap**
+
+The roadmap serves as a guide to the key milestones and features planned for SkyPort. It's organized into phases to prioritize and categorize the work, ensuring the systematic development of the project.
+
+### **Phase 1: Foundation & Basic Functionality**
+
+- **SolidJS Frontend**:
+  - Initial responsive design to showcase portfolio items.
+  - Visual coding art displays.
+  - Basic routing setup.
+- **Go Backend**:
+  - Setup basic server.
+  - Establish connection with PostgreSQL.
+  - GraphQL schema and resolver setup.
+- **Portfolio Features**:
+  - Display sections for web development, machine learning, art, astronomy, and other maker space interests.
+  - Upload and manage multiple file types (images, audio, code snippets).
+- **Dockerization & Local Hosting**:
+  - Set up Dockerfile for easy deployment.
+  - Local hosting setup with Nginx reverse proxy.
+
+### **Phase 2: Documentation & User Support**
+
+- **Full Wiki & Documentation**:
+  - Comprehensive guides on each feature and module.
+  - Best practices for customization and extension.
+  - Troubleshooting and FAQ sections.
+- **Setup & User Guides**:
+  - Detailed steps for first-time setup.
+  - Video tutorials or webinars for complex integrations.
+  - User guides for navigating and using the website once live.
+
+### **Phase 3: Expansion & Enrichment**
+
+- **E-commerce Integration**:
+  - Product listing and management.
+  - Shopping cart functionality.
+  - Secure payment gateway integration.
+- **Blog & Social Integration**:
+  - Live blog with categories and tags.
+  - Comment system integration.
+  - Live streaming schedule display.
+  - Social media feed and link integrations.
+- **Admin Portal**:
+  - Content management system (CMS) to live update website content.
+  - Analytics dashboard.
+- **Monorepo Structuring & DevOps**:
+  - Dividing project into logical sub-modules.
+  - CI/CD pipeline setup.
+
+### **Phase 4: Refinement & Scale**
+
+... *(Same points as earlier, unless there are other changes you want to make)* ...
+
 
 ## **Commitment**
 
