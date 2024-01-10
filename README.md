@@ -1,8 +1,8 @@
 # SkyPort
 
-SkyPort: A modular website framework by Sky, blending web dev, art, and more with frontend excellence. Powered by C# and SolidJS, it's a customizable platform for tech enthusiasts.
+SkyPort: A modular website framework by Sky, blending web dev, art, and more with frontend excellence. Powered by Scala and SolidJS, it's a customizable platform for tech enthusiasts.
 
-**SkyPort**: A dynamic and modular personal website framework, meticulously crafted to showcase the multifaceted passions of its creator, Sky. From web development and machine learning to art and astronomy, SkyPort seamlessly integrates a plethora of interests under one digital roof. With its emphasis on frontend excellence and user-centricity, powered by C# and SolidJS, SkyPort serves as a testament to Sky's diverse talents while offering a customizable platform for tech enthusiasts.
+**SkyPort**: A dynamic and modular personal website framework, meticulously crafted to showcase the multifaceted passions of its creator, Sky. From web development and machine learning to art and astronomy, SkyPort seamlessly integrates a plethora of interests under one digital roof. With its emphasis on frontend excellence and user-centricity, powered by Scala and SolidJS, SkyPort serves as a testament to Sky's diverse talents while offering a customizable platform for tech enthusiasts.
 
 ## **Intentions & Goals**
 
@@ -16,32 +16,31 @@ SkyPort: A modular website framework by Sky, blending web dev, art, and more wit
 ```
 /SkyPort
 |-- /backend
-|   |-- /models
-|   |-- /resolvers
-|   |-- /middlewares
-|   |-- Program.cs
-|   ...
+| |-- /models
+| |-- /controllers
+| |-- /services
+| |-- /App.scala
+| ...
 |
 |-- /frontend
-|   |-- /components
-|   |-- /pages
-|   |-- /assets
-|   |-- /styles
-|   ...
+| |-- /components
+| |-- /pages
+| |-- /assets
+| |-- /styles
+| ...
 |
 |-- /scripts
 |-- /config
 |-- /docker
 |-- README.md
 |-- .gitignore
-...
 ```
 
 ## **Getting Started**
 
 ### Prerequisites
 
-- .NET Core SDK installed (version to be specified)
+- Scala and SBT installed (version to be specified)
 - Node.js & npm installed (for the SolidJS frontend)
 - PostgreSQL set up and running
 
@@ -52,9 +51,9 @@ SkyPort: A modular website framework by Sky, blending web dev, art, and more wit
     git clone https://github.com/your_username/SkyPort.git
     ```
 
-2. Navigate to the backend directory and build the C# project:
+2. Navigate to the backend directory and build the Scala project:
     ```bash
-    cd backend && dotnet build
+    cd backend && sbt compile
     ```
 
 3. Navigate to the frontend directory and install required npm packages:
@@ -72,7 +71,7 @@ To start the development server for both backend and frontend (more detailed ins
 
 ```bash
 # In the backend directory
-dotnet run
+sbt run
 
 # In the frontend directory
 npm run dev
@@ -90,7 +89,7 @@ While SkyPort is primarily a personal endeavor, constructive feedback, issue rep
   - Initial responsive design to showcase portfolio items.
   - Visual coding art displays.
   - Basic routing setup.
-- **C# Backend**:
+- **Scala  Backend**:
   - Setup basic server.
   - Establish connection with PostgreSQL.
   - GraphQL schema and resolver setup.
